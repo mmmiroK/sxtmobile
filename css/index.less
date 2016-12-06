@@ -1,0 +1,245 @@
+/*导航部分*/
+.nav{
+    padding: 0 16/75rem;
+    text-align: center;
+    background: #fff;
+}
+.nav li{
+    float: left;
+    width: 20%;
+}
+.nav li a{
+    font-size: 24/75rem;
+    line-height: 80/75rem;
+    color: #2d2d2d;
+    display: block;
+}
+
+.nav .on a{
+    color: #3399ea;
+    border-bottom: 2/75rem solid #3399ea;
+    font-weight: bold;
+}
+
+/*轮播图*/
+
+.banner{
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .list{
+    width: 400%;
+}
+.banner .list li{
+    float: left;
+    width: 25%;
+}
+.banner .list a{
+    display: block;
+    height: 304/75rem;
+    background: url(../images/20160726020553782.jpg) no-repeat;
+    background-size: 750/75rem;
+}
+.banner .list li:nth-child(2) a{
+    background-image: url(../images/20160726020204285.jpg);
+}
+.banner .list li:nth-child(3) a{
+    background-image: url(../images/20160726020630227.jpg);
+}
+.banner .list li:nth-child(4) a{
+    background-image: url(../images/20160726020204285.jpg);
+}
+.banner .btn{
+    position: absolute;
+    bottom: 12/75rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner .btn li{
+    float: left;
+    width: 16/75rem;
+    height: 16/75rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    margin: 0 8/75rem;
+}
+
+.banner .btn .active{
+    background: rgba(51,153,234,0.7);
+}
+/*九宫格部分*/
+.sudoku li{
+    float: left;
+    width: 25%;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    font-size: 24/75rem;
+    font-family: arial,"微软雅黑";
+    text-align: center;
+    padding-top: 114/75rem;
+    padding-bottom: 40/75rem;
+    background: #fff url(../images/index_ico1.png) no-repeat center 26/75rem;
+    background-size: 56/75rem;
+}
+
+.sudoku li:nth-child(2){
+    background-image: url(../images/index_ico2.png);
+}
+.sudoku li:nth-child(3){
+    background-image: url(../images/index_ico3.png);
+}
+.sudoku li:nth-child(4){
+    background-image: url(../images/index_ico4.png);
+}
+.sudoku li:nth-child(5){
+    background-image: url(../images/index_ico5.png);
+}
+.sudoku li:nth-child(6){
+    background-image: url(../images/index_ico6.png);
+}
+.sudoku li:nth-child(7){
+    background-image: url(../images/index_ico7.png);
+}
+.sudoku li:nth-child(8){
+    background-image: url(../images/index_ico8.png);
+}
+.sudoku li a{
+    color: #2d2d2d;
+}
+/*广告部分*/
+.ad{
+    display: block;
+    height: 170/75rem;
+    background: url(../images/1.png) no-repeat center 0;
+    background-size: 750/75rem;
+    margin: 28/75rem 0;
+}
+/*就业部分*/
+.job .tab{
+    line-height: 72/75rem;
+    font-size: 24/75rem;
+    padding: 0 16/75rem;
+    padding-left: 50/75rem;
+    color: #999;
+    background:#fff url(../images/index_ico9.png) no-repeat 16/75rem center;
+    background-size: 36/75rem;
+    border-top: 2/75rem solid #f0f0f0;
+    border-bottom: 2/75rem solid #f0f0f0;
+    margin-top: 28/75rem;
+}
+.job .tab li{
+    float: left;
+    padding: 0 5/75rem;
+}
+.job .tab .on{
+    color: #3399ea;
+    border-bottom: 2/75rem solid #3399ea;
+    font-weight: bold;
+}
+/*内容部分*/
+.con{
+    padding: 0 16/75rem;
+    background: #fff;
+}
+.con ul{
+    display: none;
+}
+.con .on{
+    display: block;
+}
+.con li{
+    overflow: hidden;
+    padding: 26/75rem 8/75rem;
+    border-bottom: 2/75rem solid #f0f0f0;
+}
+.con img,.con div{
+    float: left;
+}
+.con img{
+    width: 222/75rem;
+    height: 166/75rem;
+    border-radius: 8/75rem;
+    margin-right: 20/75rem;
+}
+.con div{
+   line-height: 166/4/75rem;
+   color: #999;
+   width: 456/75rem;
+}
+.con div p{
+    display: block;
+    line-height: 166/4/75rem;
+}
+.con div p:before{
+    width: 30/75rem;
+    color: #57c9f7;
+}
+.con div p span{
+    color: #333;
+}
+.con div p i{
+    float: right;
+    font-size: 18/75rem;
+    font-family: "arial","微软雅黑";
+    color: #999;
+}
+.con div .money{
+    color: #3399ea;
+    font-size: 24/75rem;
+    font-weight: bold;
+    font-family: "arial","微软雅黑";
+}
+
+/*品牌部分*/
+.brand{
+    background: #fff;
+    padding: 0 16/75rem;
+    margin-top: 28/75rem;
+    margin-bottom: 10/75rem;
+}
+.brand .title{
+    line-height: 64/75rem;
+    border-top: 2/75rem solid #f0f0f0;
+    border-bottom: 2/75rem solid #f0f0f0;
+
+}
+.brand h3{
+    float: left;
+    font-size: 26/75rem;
+    color: #3399ea;
+}
+.brand .right{
+    float: right;
+    position: relative;
+}
+.brand .right span{
+    font-size: 20/75rem;
+    padding-right: 70/75rem;
+    color: #999;
+}
+.brand .title ul{
+    position: absolute;
+    right: 0;
+    color:#3399ea ;
+    display: none;
+}
+
+.brand .title a{
+    position: relative;
+    padding-right: 16/75rem;
+}
+.brand .title a:before{
+    position: absolute;
+    right: 0;
+    line-height: 64/75rem;
+}
+.brand .tel{
+    background: url(../images/wx.png) no-repeat 24/75rem center;
+    background-size: 168/75rem;
+    line-height: 168/4/75rem;
+    padding: 24/75rem 0 24/75rem 216/75rem;
+    color: #2d2d2d;
+}

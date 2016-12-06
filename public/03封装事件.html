@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button id="btn">按钮</button>
+	</body>
+	<script type="text/javascript">
+		/**
+		 * 1. 给DOM元素添加自定义属性，该属性用于保存指定的回调函数，且是数组格式。
+		 * 2. 只给DOM元素绑定一次事件，在这个事件中把元素的自定义属性中的函数取出来，遍历执行。
+		 * 3. 通过事件函数来遍历执行添加的回调函数。
+		 * 
+		 * 
+		 */
+		//1.获取元素
+		
+		var btn = document.getElementById('btn');
+		
+		//2.封装函数  该函数需要指定  事件类型、回调函数、元素、是否捕获
+		
+		function addEvent(type,fun,elem){
+			
+			//3.将自定义属性保存到变量中
+			
+			var eventType = 'event__'+type;
+			
+			//4.先判断元素是否有这个自定义属性
+			
+			if(elem[eventType]){
+				
+				//6.如果这个属性已经有了就把回调函数直接再添加到这个属性中
+				
+				elem[eventType].push(fun);
+				
+				
+			}else{
+				
+				//5.如果元素没有添加过这个自定义属性就添加一个
+				
+				elem[eventType] = [fun];
+				
+				console.log(elem[eventType])
+				
+				//7.绑定事件  addeve
+				var eventHandler = elem.addEventListener ?'addEventListener':'attachEvent';
+				
+				elem[eventHandler]((eventHandler.indexOf('add')>-1?'':'on')+type,function(e){
+					
+					//8.这个函数只会绑定一次，让它把所有保存的回调函数遍历执行
+					//8.0 获取元素中的事件数组
+					
+					var functions = elem[eventType];
+					
+					//8.1获取兼容的event对象 并且设置兼容的target属性
+					
+					e = e || window.event;
+					
+					e.target = e.target || e.srcElement;
+					
+					
+					//9.遍历获取的函数 一个个执行
+					
+					for(var i = 0; i<functions.length;i++){
+						
+						//10.执行函数并通过call的方式改变this的指向 
+						
+						functions[i].call(elem,e);
+						
+					}
+					
+					
+					
+				});
+				
+				
+				
+			}
+			
+			
+		}
+		
+		addEvent('click',function(e){
+			
+			alert(this+e)
+			
+			
+		},btn);
+		addEvent('click',function(e){
+			
+			alert(this+e.type)
+			
+			
+		},btn);
+		addEvent('click',function(e){
+			alert(this+e.clientX)
+			
+			
+			
+		},btn);
+		addEvent('click',function(){
+			
+			
+			
+			
+		},btn);
+		addEvent('click',function(){
+			
+			
+			
+			
+		},btn);
+		addEvent('click',function(){
+			
+			
+			
+			
+		},btn);
+		
+	</script>
+</html>

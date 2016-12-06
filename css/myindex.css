@@ -1,0 +1,385 @@
+/* line 1, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\000031}}
+.nav {
+  padding: 0 0.21333333333333335rem;
+  text-align: center;
+  background: #fff;
+}
+/* line 6, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\000036}}
+.nav li {
+  float: left ;
+  width: 20%;
+}
+/* line 10, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000310}}
+.nav li a {
+  font-size: 0.32rem;
+  line-height: 1.0666666666666667rem;
+  color: #2d2d2d;
+  display: block;
+}
+/* line 16, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000316}}
+.nav .on a {
+  border: #3399ea;
+  border-bottom: 0.02666666666666667rem solid #3399ea;
+  font-weight: bold;
+}
+/* line 22, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000322}}
+.banner {
+  overflow: hidden;
+  position: relative;
+}
+/* line 27, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000327}}
+.banner .list {
+  width: 400%;
+}
+/* line 30, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000330}}
+.banner .list li {
+  float: left;
+  width: 25%;
+}
+/* line 34, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000334}}
+.banner .list a {
+  display: block;
+  height: 4.053333333333334rem;
+  background: url(../images/20160726020553782.jpg) no-repeat;
+  background-size: 10rem;
+}
+/* line 40, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000340}}
+.banner .list li:nth-child(2) a {
+  background-image: url(../images/20160726020204285.jpg);
+}
+/* line 43, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000343}}
+.banner .list li:nth-child(3) a {
+  background-image: url(../images/20160726020630227.jpg);
+}
+/* line 46, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000346}}
+.banner .list li:nth-child(4) a {
+  background-image: url(../images/20160726020204285.jpg);
+}
+/* line 49, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000349}}
+.banner .btn {
+  position: absolute;
+  bottom: 0.16rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 56, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000356}}
+.banner .btn li {
+  float: left;
+  width: 0.21333333333333335rem;
+  height: 0.21333333333333335rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 0.10666666666666667rem;
+}
+/* line 65, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000365}}
+.banner .btn .active {
+  background: rgba(51, 153, 234, 0.7);
+}
+/*�Ź���*/
+/* line 70, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000370}}
+.sudoku li {
+  float: left;
+  width: 25%;
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  font-size: 0.32rem;
+  font-family: '΢���ź�';
+  text-align: center;
+  padding-top: 1.52rem;
+  padding-bottom: 0.5333333333333333rem;
+  background: #ffffff url(../images/index_ico1.png) no-repeat center 0.3466666666666667rem;
+  background-size: 0.7466666666666667rem;
+}
+/* line 84, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000384}}
+.sudoku li:nth-child(2) {
+  background-image: url("../images/index_ico2.png");
+}
+/* line 87, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000387}}
+.sudoku li:nth-child(3) {
+  background-image: url("../images/index_ico3.png");
+}
+/* line 90, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000390}}
+.sudoku li:nth-child(4) {
+  background-image: url("../images/index_ico4.png");
+}
+/* line 92, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000392}}
+.sudoku li:nth-child(5) {
+  background-image: url("../images/index_ico5.png");
+}
+/* line 95, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000395}}
+.sudoku li:nth-child(6) {
+  background-image: url("../images/index_ico6.png");
+}
+/* line 97, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000397}}
+.sudoku li:nth-child(7) {
+  background-image: url("../images/index_ico7.png");
+}
+/* line 99, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\0000399}}
+.sudoku li:nth-child(8) {
+  background-image: url("../images/index_ico8.png");
+}
+/* line 101, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003101}}
+.sudoku1 li:nth-child(1) {
+  background-image: url("../images/index_ico9.png");
+}
+/* line 103, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003103}}
+.sudoku1 li:nth-child(2) {
+  background-image: url("../images/index_ico10.png");
+}
+/* line 105, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003105}}
+.sudoku1 li:nth-child(3) {
+  background-image: url("../images/index_ico11.png");
+}
+/* line 107, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003107}}
+.sudoku1 li:nth-child(4) {
+  background-image: url("../images/index_ico12.png");
+}
+/* line 109, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003109}}
+.sudoku1 li:nth-child(5) {
+  background-image: url("../images/index_ico13.png");
+}
+/* line 111, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003111}}
+.sudoku1 li:nth-child(6) {
+  background-image: url("../images/index_ico14.png");
+}
+/* line 113, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003113}}
+.sudoku1 li:nth-child(7) {
+  background-image: url("../images/index_ico15.png");
+}
+/* line 115, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003115}}
+.sudoku1 li:nth-child(8) {
+  background-image: url("../images/index_ico16.png");
+}
+/* line 117, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003117}}
+.sudoku1 li:nth-child(9) {
+  background-image: url("../images/index_ico17.png");
+}
+/* line 119, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003119}}
+.sudoku1 li:nth-child(10) {
+  background-image: url("../images/index_ico18.png");
+}
+/* line 121, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003121}}
+.sudoku1 li:nth-child(11) {
+  background-image: url("../images/index_ico19.png");
+}
+/* line 123, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003123}}
+.sudoku1 li:nth-child(12) {
+  background-image: url("../images/index_ico20.png");
+}
+/* line 126, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003126}}
+.sudoku li a {
+  color: #2d2d2d;
+}
+/* line 130, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003130}}
+.ad {
+  display: block;
+  height: 2.2666666666666666rem;
+  background: url(../images/1.png) no-repeat center 0;
+  background-size: 10rem;
+  margin: 0.37333333333333335rem 0;
+}
+/* line 138, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003138}}
+.job .tab {
+  line-height: 0.96rem;
+  font-size: 0.32rem;
+  padding: 0 0.21333333333333335rem;
+  padding-left: 0.6666666666666666rem;
+  color: #999;
+  background: #ffffff url(../images/index_ico9.png) no-repeat 0.21333333333333335rem center;
+  background-size: 0.48rem;
+  border-top: 0.02666666666666667rem solid #f0f0f0;
+  margin-top: 0.37333333333333335rem;
+}
+/* line 151, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003151}}
+.job .tab li {
+  float: left;
+  padding: 0 0.06666666666666667rem;
+}
+/* line 155, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003155}}
+.job .tab .on {
+  color: #3399ea;
+  border-bottom: 0.02666666666666667rem solid #3399ea;
+  font-weight: bold;
+}
+/* line 161, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003161}}
+.con {
+  padding: 0 0.21333333333333335rem;
+  background: #fff;
+}
+/* line 165, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003165}}
+.con ul {
+  display: none;
+}
+/* line 168, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003168}}
+.con .on {
+  display: block;
+}
+/* line 171, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003171}}
+.con li {
+  overflow: hidden;
+  padding: 0.3466666666666667rem 0.10666666666666667rem;
+  border-bottom: 0.02666666666666667rem solid #f0f0f0;
+}
+/* line 176, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003176}}
+.con img,
+.con div {
+  float: left;
+}
+/* line 179, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003179}}
+.con img {
+  width: 2.96rem;
+  height: 2.2133333333333334rem;
+  border-radius: 0.10666666666666667rem;
+  margin-right: 0.26666666666666666rem;
+}
+/* line 185, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003185}}
+.con div {
+  line-height: 0.5533333333333333rem;
+  color: #999;
+  width: 6.08rem;
+}
+/* line 190, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003190}}
+.con div p {
+  display: block;
+  line-height: 0.5533333333333333rem;
+}
+/* line 194, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003194}}
+.con div p:before {
+  width: 0.4rem;
+  color: #57c9f7;
+}
+/* line 198, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003198}}
+.con div p span {
+  color: #333;
+}
+/* line 201, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003201}}
+.con div p i {
+  float: right;
+  font-size: 0.24rem;
+  font-family: 'arial';
+  color: #999;
+}
+/* line 207, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003207}}
+.con div .money {
+  color: #3399ea;
+  font-size: 0.32rem;
+  font-weight: bold;
+  font-family: 'arial';
+}
+/* line 214, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003214}}
+.brand {
+  background: #fff;
+  padding: 0 0.21333333333333335rem;
+  margin-top: 0.37333333333333335rem;
+  margin-bottom: 0.13333333333333333rem;
+}
+/* line 220, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003220}}
+.brand .title {
+  line-height: 0.8533333333333334rem;
+  border-top: 0.02666666666666667rem solid #f0f0f0;
+  border-bottom: 0.02666666666666667rem solid #f0f0f0;
+}
+/* line 225, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003225}}
+.brand h3 {
+  float: left;
+  font-size: 0.3466666666666667rem;
+  color: #3399ea;
+}
+/* line 230, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003230}}
+.brand .right {
+  float: right;
+  position: relative;
+}
+/* line 234, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003234}}
+.brand .right span {
+  font-size: 0.26666666666666666rem;
+  padding-right: 0.9333333333333333rem;
+  color: #999;
+}
+/* line 239, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003239}}
+.brand .title ul {
+  position: absolute;
+  right: 0;
+  color: #3399ea;
+  display: none;
+}
+/* line 246, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003246}}
+.brand .title a {
+  position: relative;
+  padding-right: 0.21333333333333335rem;
+}
+/* line 250, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003250}}
+.brand .title a:before {
+  position: absolute;
+  right: 0;
+  line-height: 0.8533333333333334rem;
+}
+/* line 255, myindex.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/myindex\.less}line{font-family:\00003255}}
+.brand .tel {
+  background: url(../images/wx.png) no-repeat 0.32rem center;
+  background-size: 2.24rem;
+  line-height: 0.56rem;
+  padding: 0.32rem 0 0.32rem 2.88rem;
+  color: #2d2d2d;
+}

@@ -1,0 +1,99 @@
+/* line 1, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\000031}}
+body {
+  font-size: 0.29333333333333333rem;
+  font-family: '微软雅黑';
+  line-height: 0.29333333333333333rem;
+}
+/* line 6, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\000036}}
+.header,
+.container,
+.footer {
+  position: absolute;
+  width: 100%;
+}
+/* line 10, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000310}}
+.header {
+  height: 1.1733333333333333rem;
+  background: #3399ea url(../images/home.png) no-repeat 0.21333333333333335rem center;
+  background-size: 0.5333333333333333rem;
+  padding: 0 0.21333333333333335rem;
+  box-sizing: border-box;
+}
+/* line 17, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000317}}
+.header .logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -0.26rem;
+  margin-left: -1.2533333333333334rem;
+}
+/* line 24, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000324}}
+.header .logo img {
+  width: 2.506666666666667rem;
+}
+/* line 27, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000327}}
+.header .tel {
+  font-size: 0.26666666666666666rem;
+  color: #fff;
+  font-family: 'Siteka Text';
+  float: right;
+  padding-top: 0.26666666666666666rem;
+  line-height: 0.32rem;
+}
+/* line 37, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000337}}
+.container {
+  top: 1.1733333333333333rem;
+  bottom: 1.28rem;
+  background: #F5F8F9;
+  overflow: auto;
+}
+/* line 44, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000344}}
+.footer {
+  height: 1.28rem;
+  background: #fff;
+  bottom: 0;
+  border-top: 0.02666666666666667rem solid #f0f0f0;
+}
+/* line 50, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000350}}
+.footer li {
+  float: left;
+  width: 25%;
+  border-right: 0.013333333333333334rem solid #f0f0f0;
+  box-sizing: border-box;
+}
+/* line 56, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000356}}
+.footer li a {
+  display: block;
+  height: 1.28rem;
+  background: url(../images/foot_ico1.png) no-repeat center 0.13333333333333333rem;
+  background-size: 0.64rem;
+  padding-top: 0.88rem;
+  box-sizing: border-box;
+  color: #a8a8a8;
+  text-align: center;
+}
+/* line 67, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000367}}
+.footer li:nth-child(2) a {
+  background-image: url(../images/foot_ico2.png);
+}
+/* line 70, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000370}}
+.footer li:nth-child(3) a {
+  background-image: url(../images/foot_ico3.png);
+}
+/* line 73, mypublic.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/9-12\/css\/mypublic\.less}line{font-family:\0000373}}
+.footer li:nth-child(4) a {
+  background-image: url(../images/foot_ico4.png);
+}

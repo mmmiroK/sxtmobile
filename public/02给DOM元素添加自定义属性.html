@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<img src="sxt/images/1.jpg" alt="留着" />
+	</body>
+	<script type="text/javascript">
+		
+		//1.获取图片元素
+		
+		var img = document.getElementsByTagName('img')[0];
+		
+		//2.获取img元素  本身就有的标准属性  src  alt
+		
+		//alert(img.src+img.alt);
+		
+		
+		//3.给DOM元素添加自定义属性,给元素添加的属性值类型是任意。
+		
+		img.abcd = [1,2,3,4,5];
+		
+		img.json = {name:'小白兔','title':'卖姑娘的小火柴'}
+		
+		console.log(img.abcd);
+		
+		console.log(img.json);
+		
+		
+		img.onclick = function(){
+			
+			alert(this.json)
+			
+		}
+		
+		
+	</script>
+</html>
